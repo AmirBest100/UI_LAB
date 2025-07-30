@@ -3,7 +3,7 @@
 | NUMBER | COMMENT |
 | ------- | -------------- |
 | ** source 2 ** | 🔲 light & dark mode switch --- ( ✅ it keeps the users choose)|
-| ** source 5 ** |  design of music player --- (⭕its just ui and i will compleat the JS) |
+| ** source 5 ** |  design of music player --- (⭕its just UI and i will compleat the JS) |
 
 ***⭐💖  If you’d like to support this project, feel free to give it a ⭐️ on the repository 💖⭐***
 ______
