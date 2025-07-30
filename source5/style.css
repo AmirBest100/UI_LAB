@@ -1,0 +1,145 @@
+@media (max-width: 480px) {
+  .dm {
+    width: 90%;
+    padding: 20px;
+    border-radius: 15px;
+  }
+
+  .txt1 {
+    font-size: 18px;
+  }
+
+  .txt2 {
+    font-size: 13px;
+  }
+
+  .d3 input[type="btn"] {
+    width: 40px;
+    height: 40px;
+  }
+
+  .d-img {
+    width: 80px;
+    height: 80px;
+  }
+}
+/* فونت  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* قاب موزیک‌ پلیر */
+.dm {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 20px;
+    width: 350px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(15px);
+}
+
+/* توضیحات */
+.d1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.txt1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.txt2 {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* نوار زمان */
+#len {
+    width: 100%;
+    margin: 15px 0;
+    accent-color: #f88736;
+}
+
+/* دکمه‌های کنترل */
+.d3 {
+    display: flex;
+    justify-content: space-between;
+}
+.d3 button {
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #ff6a00, #ffb347);
+    box-shadow: 0 4px 12px rgba(255, 106, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.d3 button:hover {
+    transform: scale(1.1);
+}
+
+/* تصویر موسیقی */
+.d-img {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+}
+
+/* پلی و استپ */
+.svg-stop {
+  display: none;
+}
+
+.playing .svg-stop {
+  display: inline;
+}
+
+.playing .svg3 {
+  display: none;
+}
+
+/* قلب */
+.svg1 {
+  cursor: pointer;
+  color: transparent;
+  stroke: black;
+  stroke-width: 2;
+  transition: all 0.3s ease;
+}
+
+/*حالت فعال*/
+.svg1.active {
+  color: red;
+  animation: beat 0.6s ;
+}
+
+/* انیمیشن ضربان قلب */
+@keyframes beat {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+}
