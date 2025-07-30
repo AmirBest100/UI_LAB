@@ -16,10 +16,10 @@ playBtn.addEventListener('click', () => {
 
 
   if (isPlaying) {
-    console.log('در حال پخش 🎵');
+    console.log('در حال پخش');
     // audio.play()
   } else {
-    console.log('متوقف شد ⏹️');
+    console.log('متوقف شد');
     // audio.pause()
   }
 });
