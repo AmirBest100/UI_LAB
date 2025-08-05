@@ -27,4 +27,4 @@ ______
 | ------- | -------------- |--------------------|
 | ** source 2 ** | [test link source2](https://amirbest100.github.io/UI_LAB/source2) | my self |
 | ** source 5 ** | [test link source5](https://amirbest100.github.io/UI_LAB/source5) | my self |
-| ** source 5 ** | [test link source5](https://amirbest100.github.io/UI_LAB/clock) |[YT LINK](https://www.youtube.com/watch?v=5tC46h022YE)|
+| ** source 5 ** | [test link clock](https://amirbest100.github.io/UI_LAB/clock) |[YT LINK](https://www.youtube.com/watch?v=5tC46h022YE)|
